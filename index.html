@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="Style.css">
+	<meta name="author" content="Egor Ushakov">
+	<meta name="description" content="Facebook chat-like application">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Chat Application</title>
+	<meta name="keywords" content="Facebook, messenger">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body>
+	<div class="container">
+		<div id="chat-users-container">
+			<h1>Chats</h1>
+			<input type="text" placeholder="Search.." id="search-bar" onkeyup="myFunction()">
+			<div class="chat-users">
+				<div class="user">
+					<img src="https://cdn.business2community.com/wp-content/uploads/2017/08/blank-profile-picture-973460_640.png" alt="Girl in a jacket" >
+					<p>Joshia Lee</p>
+				</div>
+				<div class="user">
+					<img src="https://cdn.business2community.com/wp-content/uploads/2017/08/blank-profile-picture-973460_640.png" alt="Girl in a jacket" >
+					<p>Zoe Yu</p>
+				</div>
+				<div class="user">
+					<img src="https://cdn.business2community.com/wp-content/uploads/2017/08/blank-profile-picture-973460_640.png" alt="Girl in a jacket" >
+					<p>Benny Epp</p>
+				</div>
+				<div class="user">
+					<img src="https://cdn.business2community.com/wp-content/uploads/2017/08/blank-profile-picture-973460_640.png" alt="Girl in a jacket" >
+					<p>JP Ang</p>
+				</div>
+				<div class="user">
+					<img src="https://cdn.business2community.com/wp-content/uploads/2017/08/blank-profile-picture-973460_640.png" alt="Girl in a jacket" >
+					<p>Ilya Ushakov</p>
+				</div>
+				<div class="user">
+					<img src="https://cdn.business2community.com/wp-content/uploads/2017/08/blank-profile-picture-973460_640.png" alt="Girl in a jacket" >
+					<p>Dustin Rice</p>
+				</div>
+				<div class="user">
+					<img src="https://cdn.business2community.com/wp-content/uploads/2017/08/blank-profile-picture-973460_640.png" alt="Girl in a jacket" >
+					<p>Nico Peters</p>
+				</div>
+				<div class="user">
+					<img src="https://cdn.business2community.com/wp-content/uploads/2017/08/blank-profile-picture-973460_640.png" alt="Girl in a jacket" >
+					<p>Joshia Lee</p>
+				</div>
+				<div class="user">
+					<img src="https://cdn.business2community.com/wp-content/uploads/2017/08/blank-profile-picture-973460_640.png" alt="Girl in a jacket" >
+					<p>Zoe Yu</p>
+				</div>
+				<div class="user">
+					<img src="https://cdn.business2community.com/wp-content/uploads/2017/08/blank-profile-picture-973460_640.png" alt="Girl in a jacket" >
+					<p>Benny Epp</p>
+				</div>
+				<div class="user">
+					<img src="https://cdn.business2community.com/wp-content/uploads/2017/08/blank-profile-picture-973460_640.png" alt="Girl in a jacket" >
+					<p>JP Ang</p>
+				</div>
+				<div class="user">
+					<img src="https://cdn.business2community.com/wp-content/uploads/2017/08/blank-profile-picture-973460_640.png" alt="Girl in a jacket" >
+					<p>Ilya Ushakov</p>
+				</div>
+				<div class="user">
+					<img src="https://cdn.business2community.com/wp-content/uploads/2017/08/blank-profile-picture-973460_640.png" alt="Girl in a jacket" >
+					<p>Dustin Rice</p>
+				</div>
+				<div class="user">
+					<img src="https://cdn.business2community.com/wp-content/uploads/2017/08/blank-profile-picture-973460_640.png" alt="Girl in a jacket" >
+					<p>Nico Peters</p>
+				</div>
+			</div>
+		</div>
+		<div class="chat-box">
+			<div class="user-info">
+				<img id="profile-pic" src="https://cdn.business2community.com/wp-content/uploads/2017/08/blank-profile-picture-973460_640.png" alt="Girl in a jacket">
+				<p id="fullname">Joshia Lee</p>
+			</div>
+			<ul class="messages">
+				<li class="stranger-message">Where is mh shift buddy</li>
+				<li class="stranger-message">I don't have any for today</li>
+				<li class="stranger-message">I want ONION RINGS delivered to my house asap</li>
+				<li class="stranger-message">Ur farmers wrap isnt good enough egor</li>
+				<li class="stranger-message">Need compensation for my act</li>
+				<li class="user-message">Where is mh shift buddy</li>
+				<li class="user-message">I don't have any for today</li>
+				<li class="user-message">I want ONION RINGS delivered to my house asap</li>
+				<li class="user-message">Ur farmers wrap isnt good enough egor</li>
+				<li class="user-message">Need compensation for my act</li>
+			</ul>
+			<form id="text-box">
+				<input type="text" placeholder="Search.." id="text-input">
+				<input type="submit" value="Send Message" id="send-button">
+			</div>
+		</div>
+	</div>
+	<script src='script.js'></script>
+</body>
+</html>
